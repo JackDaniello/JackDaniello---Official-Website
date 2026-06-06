@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JackDaniello | AI Music</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@700&display=swap');
+        
+        :root {
+            --primary: #ff00ff;
+            --dark: #0a0a0a;
+            --accent: #00ffff;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a0033 100%);
+            color: #fff;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+        
+        header {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            position: relative;
+            background: url('https://picsum.photos/id/1015/1920/1080') center/cover no-repeat;
+        }
+        
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(10, 10, 10, 0.7);
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 800px;
+            padding: 2rem;
+        }
+        
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 4.5rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(90deg, #ff00ff, #00ffff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .tagline {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 1.5rem;
+            justify-content: center;
+            margin-top: 2rem;
+        }
+        
+        .social-btn {
+            padding: 12px 32px;
+            background: rgba(255,255,255,0.1);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: all 0.3s;
+            backdrop-filter: blur(10px);
+        }
+        
+        .social-btn:hover {
+            background: var(--primary);
+            transform: translateY(-3px);
+        }
+        
+        section {
+            padding: 5rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .bio {
+            background: rgba(255,255,255,0.05);
+            border-radius: 20px;
+            padding: 3rem;
+        }
+        
+        h2 {
+            font-size: 2.8rem;
+            margin-bottom: 2rem;
+            text-align: center;
+            color: var(--accent);
+        }
+        
+        .music-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 3rem;
+            background: #000;
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+        
+        .glow {
+            text-shadow: 0 0 20px var(--primary);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h1 class="glow">JACKDANIELLO</h1>
+            <p class="tagline">AI Music Creator • Viral Sounds • Emotional Beats</p>
+            <p>Bringing legendary vibes back to life with AI</p>
+            
+            <div class="social-links">
+                <a href="https://www.tiktok.com/@jackdaniellos" target="_blank" class="social-btn">TikTok</a>
+                <a href="https://www.instagram.com/jackdaniello" target="_blank" class="social-btn">Instagram</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="bio">
+        <div class="bio">
+            <h2>About JackDaniello</h2>
+            <p>JackDaniello er en innovativ AI Music-produsent som skaper virale, emosjonelle og nostalgiske låter. Med fokus på hyllester til ikoner som Michael Jackson, blander han moderne produksjon med tidløs soul og energi.</p>
+            <p>Fra Gary til verden – JackDaniello tar klassiske vibber og gjør dem til nye virale hits på TikTok og Instagram. Hans musikk har allerede truffet tusenvis av lyttere som elsker den unike blandingen av AI-kraft og ekte følelser.</p>
+            
+            <h3 style="margin-top: 2rem; color: #ff00ff;">Hva gjør JackDaniello unikt?</h3>
+            <ul style="margin-top: 1rem; line-height: 2;">
+                <li>✨ AI-genererte vokal som høres ekte ut</li>
+                <li>🎤 Hyllester til legender som MJ</li>
+                <li>🔥 Virale hooks optimalisert for korte videoer</li>
+                <li>🌌 Emosjonell dybde i hver låt</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="music" style="background: rgba(0,0,0,0.6);">
+        <h2>Featured Sounds</h2>
+        <div class="music-grid">
+            <div style="background: rgba(255,0,255,0.1); padding: 2rem; border-radius: 16px; text-align: center;">
+                <h3>From Gary to the World</h3>
+                <p>Michael Jackson Tribute</p>
+            </div>
+            <div style="background: rgba(0,255,255,0.1); padding: 2rem; border-radius: 16px; text-align: center;">
+                <h3>King of Pop Forever</h3>
+                <p>Emosjonell hyllest</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 JackDaniello AI Music • Follow on TikTok & Instagram for new drops</p>
+        <p>Made with ❤️ for the fans</p>
+    </footer>
+
+    <script>
+        // Simple scroll effect
+        window.addEventListener('scroll', () => {
+            document.querySelectorAll('section').forEach(sec => {
+                if (sec.getBoundingClientRect().top < window.innerHeight * 0.8) {
+                    sec.style.opacity = 1;
+                }
+            });
+        });
+    </script>
+</body>
+</html>
